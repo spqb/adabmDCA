@@ -63,3 +63,17 @@ Additionally, we provide several routines for sampling and analyzing the generat
 
 ## Usage
 Check out the online [Documentation](https://spqb.github.io/adabmDCApy) :wink:
+
+## License
+
+This package is open-sourced under the MIT License.
+
+## Citation
+
+If you use this package in your research, please cite:
+
+> Rosset, L., Netti, R., Muntoni, A.P., Weigt, M., & Zamponi, F. (2024). adabmDCA 2.0: A flexible but easy-to-use package for Direct Coupling Analysis.
+
+## Acknowledgments
+
+This work was developed in collaboration with Sorbonne Université, Sapienza Università di Roma, and Politecnico di Torino.

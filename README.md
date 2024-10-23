@@ -1,11 +1,11 @@
 # adabmDCA
-`adabmDCA 2.0` – a flexible but easy-to-use package for Direct Coupling Analysis
+`adabmDCA 2.0` – a flexible but easy-to-use package for Direct Coupling Analysis.
 
 ## Installation
 
 `adabmDCA` is available in three languages: C++ (single-core CPU), Julia (multi-core CPU) and Python (GPU-oriented). Follow the instructions for installing the desired implementation.
 
-### Python implementation
+### Python implementation :snake:
 Open a terminal, clone the github repository locally, install the dependencies and the package:
 
 ```{bash}
@@ -50,3 +50,16 @@ This will set up the package for use.
 
 ### C++ implementation
 TODO
+
+## Introducton
+This package presents a new version of `adabmDCA`. The package comes in three different languages: C++ (single-core CPU), Julia (multi-core CPU), and Python (GPU-oriented). They share the same front-end interface from the terminal allowing the user to install and use one of the three equivalent versions based on hardware or software constraints.
+
+We provide three different training routines:
+- **bmDCA**: Trains a fully-connected DCA model;
+- **eaDCA**: Trains a DCA model on a sparse coupling network by progressively adding couplings during the training;
+- **edDCA**: Starts from a trained bmDCA model and iteratively removes the less informative couplings until the target sparsity is reached.
+
+Additionally, we provide several routines for sampling and analyzing the generated sequences once a DCA model is trained, for constructing and evaluating - according to a DCA model - a single mutant library from a given wild type, and finally, for computing the pairwise contact scores, in terms of average-product corrected Frobenius norms of the DCA couplings.
+
+## Usage
+Check out the online [Documentation](https://spqb.github.io/adabmDCApy) :wink:

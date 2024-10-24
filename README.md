@@ -40,16 +40,33 @@ This will install all necessary dependencies and set up the package.
     Pkg.add(url="https://github.com/spqb/adabmDCA.jl")
     Pkg.add("ArgParse")
     ```
-2.  Download the files `adabmDCA.sh` and `execute.jl` into the same folder.
+2.  Download the files `adabmDCA.sh` and `execute.jl` into the same folder
+    ```{bash}
+    wget https://github.com/spqb/adabmDCA.jl/blob/main/install.sh
+    https://github.com/spqb/adabmDCA.jl/blob/main/execute.jl
+    ```
 
-3.  Make the script executable by opening a terminal in the folder and running:
+4.  Make the script executable by opening a terminal in the folder and running:
     ```{bash}
     chmod +x adabmDCA.sh
     ```
 This will set up the package for use.
 
 ### C++ implementation
-TODO
+1.    Clone the repository
+      ```{bash}
+      git clone git@github.com:spqb/adabmDCAc.git
+      ```
+2.    In the __src__ folder run
+      ```{bash}
+      make
+      ```
+3.    It will generate the executable file __adabmDCA__. See 
+      ```{bash}
+      ./adabmDCA -h
+      ```
+      for a complete list of features.
+
 
 ## Introducton
 This package presents a new version of `adabmDCA`. The package comes in three different languages: C++ (single-core CPU), Julia (multi-core CPU), and Python (GPU-oriented). They share the same front-end interface from the terminal allowing the user to install and use one of the three equivalent versions based on hardware or software constraints.

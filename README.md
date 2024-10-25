@@ -57,7 +57,7 @@ This will set up the package for use.
 
 The main repository of the implementation can be found at [adabmDCA.jl](https://github.com/spqb/adabmDCA.jl.git).
 
-### C++ implementation
+### C/C++ implementation
 1.    Clone the repository
       ```{bash}
       git clone git@github.com:spqb/adabmDCAc.git

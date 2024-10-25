@@ -6,7 +6,7 @@
 `adabmDCA` is available in three languages: C++ (single-core CPU), Julia (multi-core CPU) and Python (GPU-oriented). Follow the instructions for installing the desired implementation.
 
 ### Python implementation :snake:
-Open a terminal, clone the github repository locally, install the dependencies and the package:
+Open a terminal, clone the GitHub repository locally, and install the dependencies and the package:
 
 ```{bash}
 git clone git@github.com:spqb/adabmDCApy.git
@@ -14,6 +14,8 @@ cd adabmDCApy
 pip install -r requirements.txt
 pip install -e .
 ```
+
+The main repository of the implementation can be found at [adabmDCApy](https://github.com/spqb/adabmDCApy.git).
 
 ### Julia implementation
 After installing [Julia](https://julialang.org/downloads/) on your system, you can install the package in one of the following ways:
@@ -40,17 +42,20 @@ This will install all necessary dependencies and set up the package.
     Pkg.add(url="https://github.com/spqb/adabmDCA.jl")
     Pkg.add("ArgParse")
     ```
+    
 2.  Download the files `adabmDCA.sh` and `execute.jl` into the same folder
     ```{bash}
     wget https://github.com/spqb/adabmDCA.jl/blob/main/install.sh
-    https://github.com/spqb/adabmDCA.jl/blob/main/execute.jl
+    wget https://github.com/spqb/adabmDCA.jl/blob/main/execute.jl
     ```
 
-4.  Make the script executable by opening a terminal in the folder and running:
+3.  Make the script executable by opening a terminal in the folder and running:
     ```{bash}
     chmod +x adabmDCA.sh
     ```
 This will set up the package for use.
+
+The main repository of the implementation can be found at [adabmDCA.jl](https://github.com/spqb/adabmDCA.jl.git).
 
 ### C++ implementation
 1.    Clone the repository
@@ -61,11 +66,13 @@ This will set up the package for use.
       ```{bash}
       make
       ```
-3.    It will generate the executable file __adabmDCA__. See 
+3.    It will generate the executable file __adabmDCA__. In the main folder run also `chmod +x adabmDCA.sh` to use the main script file. See
       ```{bash}
-      ./adabmDCA -h
+      ./adabmDCA --help
       ```
       for a complete list of features.
+
+The main repository of the implementation can be found at [adabmDCAc](https://github.com/spqb/adabmDCAc.git).
 
 
 ## Introducton

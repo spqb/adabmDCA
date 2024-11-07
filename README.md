@@ -6,13 +6,20 @@
 `adabmDCA` is available in three languages: C++ (single-core CPU), Julia (multi-core CPU) and Python (GPU-oriented). Follow the instructions for installing the desired implementation.
 
 ### Python implementation :snake:
-Open a terminal, clone the GitHub repository locally, and install the dependencies and the package:
 
-```{bash}
+### Option 1: Install from PyPI
+Open a terminal and run
+```bash
+pip install adabmDCA
+```
+
+### Option 2: Install from the GitHub repository
+Clone the repository locally and then install the requirements and the package. In a terminal, run:
+
+```bash
 git clone git@github.com:spqb/adabmDCApy.git
 cd adabmDCApy
-pip install -r requirements.txt
-pip install -e .
+pip install .
 ```
 
 The main repository of the implementation can be found at [adabmDCApy](https://github.com/spqb/adabmDCApy.git).

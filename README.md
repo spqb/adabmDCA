@@ -7,13 +7,13 @@
 
 ### Python implementation :snake:
 
-### Option 1: Install from PyPI
+#### Option 1: Install from PyPI
 Open a terminal and run
 ```bash
 pip install adabmDCA
 ```
 
-### Option 2: Install from the GitHub repository
+#### Option 2: Install from the GitHub repository
 Clone the repository locally and then install the requirements and the package. In a terminal, run:
 
 ```bash

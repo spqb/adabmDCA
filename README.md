@@ -17,7 +17,7 @@ pip install adabmDCA
 Clone the repository locally and then install the requirements and the package. In a terminal, run:
 
 ```bash
-git clone git@github.com:spqb/adabmDCApy.git
+git clone https://github.com/spqb/adabmDCApy.git
 cd adabmDCApy
 pip install .
 ```
@@ -67,7 +67,7 @@ The main repository of the implementation can be found at [adabmDCA.jl](https://
 ### C/C++ implementation
 1.    Clone the repository
       ```{bash}
-      git clone git@github.com:spqb/adabmDCAc.git
+      git clone https://github.com/spqb/adabmDCAc.git
       ```
 2.    In the __src__ folder run
       ```{bash}
